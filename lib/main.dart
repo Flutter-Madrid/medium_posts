@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:medium_posts/adobe_xd/adobe_xd.dart';
 import 'package:medium_posts/navigation_rail/navigation_rail.dart';
 
 void main() {
@@ -21,6 +23,10 @@ class HomePage extends StatelessWidget {
     Post(
       title: 'NavigationRail',
       page: NavigationRailPage(),
+    ),
+    Post(
+      title: 'Adobe XD',
+      page: AdobeXDPage(),
     ),
   ];
 
